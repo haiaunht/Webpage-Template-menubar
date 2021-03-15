@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.top-bar {
+  margin-top: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 60px;
+  min-height: 3500px; /*this is for how heigth to scroll*/
+}
+
+div {
+  margin: 10px auto;
+}
+
+div #submit {
+  margin-top: 50px;
+}
+
+#movieHeader {
+  background-image: url("../../images/backgrounimage.jpg");
+  border: 10px double chartreuse;
+  padding: 30px;
+}
+
+#top {
+  margin-top: 0;
+  padding: 20px;
+}
+
+.top-bar,
+div .menu {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+#top {
+  color: #eb1b0c;
+  font-weight: bolder;
+  font-style: italic;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#footer p {
+  text-align: center;
+  padding-top: 13px;
+}
+
+footer {
+  position: fixed;
+  font-weight: bolder;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: auto;
+}
+
+.grid-container {
+  margin-top: 1.5%;
+}
+
+.breadcrumbs a {
+  font-size: 1.2em;
+  color: darkblue;
+  font-weight: bold;
+}
+
+.submit-button {
+  border: 5px groove #5ac18e;
+  padding: 2%;
+  font-weight: bolder;
+  background-color: #dfecf6;
+  color: #004080;
+}
+
+#submit {
+  margin-top: 20px;
+}
+
+#box1,
+#box2 {
+  background-color: #dfecf6;
+}
+
+#listOfChar {
+  border: #eb1b0c groove 2px;
+  background-color: #97ffeb;
+  padding: 20px 20px;
+}
+
+#soundtrack {
+  background-color: #e6f3fa;
+  padding: 20px 20px;
+  border: 1px dashed #8a2be2;
+}
+
+#crew {
+  background-color: #f6e4cd;
+  padding: 20px 20px;
+  border: 1px double #00ffff;
+}
+
+div#soundtrack div:nth-of-type(odd) {
+  background: #e0e0e0;
+  padding-left: 10px;
+}
+
+div#soundtrack div:nth-of-type(even) {
+  background: #ffffff;
+  padding-left: 10px;
+}
+
+div#crew div:nth-of-type(odd) {
+  background: #ede6f5;
+  padding-left: 10px;
+}
+
+div#crew div:nth-of-type(even) {
+  background: #ffffff;
+  padding-left: 10px;
+}
+
+h5 {
+  font-weight: bolder;
+  color: darkblue;
+}
+
+h3 {
+  text-align: center;
+}
+
+#submit-button {
+  background-color: #00ff40;
+  padding: 15px;
+  font-size: 1.3em;
+  font-weight: bold;
+  border: #000000 solid 2px;
+}
+
+#quote {
+  text-align: center;
+  font-style: italic;
+}
+
+#whosaid {
+  text-align: center;
+}
+
+/*this for toggle any section*/
+.hidden {
+  display: none;
+}
